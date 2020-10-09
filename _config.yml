@@ -39,12 +39,9 @@ algolia:
 markdown: kramdown
 theme: jekyll-theme-basically-basic
 plugins: # previsously gems
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-feed:
-  path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 5
@@ -84,5 +81,7 @@ defaults:
     values:
       layout: post
       read_time: true
+
+google_analytics: UA-180236343-1
 
 copyright: "© Pranav R."
